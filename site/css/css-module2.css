@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  
+  body{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .row{
+      width: 100%;
+  }
+
+  .menu-header{
+    position: relative;  
+    text-align: center;
+      font-size: 175%;
+      color: blue;
+      margin-bottom: 40px;
+  }
+
+  .spacing{
+      position: relative;
+      top: 60px;
+      margin: 15px;
+  }
+
+  .menuitem{
+      position: relative;
+      top: 0;
+      background-color:#999999;
+      margin: 15px;
+      padding: 25px;
+      border: 3px solid orange;
+  }
+
+  .menuitem p{
+      margin-top: 20px;
+      text-align: justify;
+      font-size: 100%;
+      color: black;
+  }
+.menuitem-title{
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    padding: 6px 10px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+#titlechicken{
+    background-color: palevioletred;
+    color: black;
+}
+
+#titlebeef{
+    background-color: crimson;
+    color: white
+}
+
+#titlesushi{
+    background-color: rgba(255, 255, 0, 0.712);
+}
+
+/**********Media Queries**********/
+/*******Desktop******/
+@media (min-width: 992px){
+    .xl-4{
+        width: 33.33%;
+        float: left;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .xl-4{
+        width: 50%;
+        float: left;
+    }
+    .xl-tablet{
+        width: 100%;
+        float: left;
+    }
+}
+@media (max-width: 767px){
+    .xl-4{
+        width:100%;
+        float: left;
+    }
+}
